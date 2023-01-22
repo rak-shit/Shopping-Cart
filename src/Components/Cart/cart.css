@@ -1,0 +1,23 @@
+.cart__container {
+    margin: 2rem auto;
+    width: 50%;
+}
+
+.cart__container__flex {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0rem;
+    padding: 1rem 1rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    align-items: center;
+}
+
+.cart__container__flex-item-image {
+    width: 30%;
+    height: auto;
+}
+
+.cart__container__flex-item-remove-button {
+    padding: 4px;
+    cursor: pointer;
+}

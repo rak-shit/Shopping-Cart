@@ -1,0 +1,12 @@
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(24, 1fr);
+    gap: 1rem;
+    margin: 1rem 2rem; 
+}
+
+.product-list__item {
+    padding: 10px 8px;
+    grid-column: span 4;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}

@@ -1,0 +1,17 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    background-color: #f8f8f8;
+    box-shadow: 0 3px 5px -8px #f0f0f0;
+}
+
+.navbar__items {
+    font-size: 32px;
+}
+
+.right {
+    font-size: 20px;
+    margin-left: auto;
+    cursor: pointer;
+}
